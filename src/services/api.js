@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+// const API_URL = 'http://localhost:5000/api';
+// Replace the localhost URL with your Railway URL
+const API_URL = 'https://mini-expense-tracker-backend-production.up.railway.app/api';
 
 const api = axios.create({
   baseURL: API_URL,
